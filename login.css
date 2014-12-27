@@ -1,0 +1,54 @@
+h2 {
+	color: #e7e7e7;
+    font-family: Oswald;
+}
+
+body {
+    background-image: url("/images/stripe.png");
+    background-repeat: repeat-x repeat-y;
+}
+
+table {
+	align: center;
+}
+
+p {
+    color: #e7e7e7;
+}
+
+a:link {
+    color: #80ae3f;
+}
+
+a:visited {
+    color: #6e9536;
+}
+
+a:hover {
+    color: #95c84c;
+}
+
+input#login {
+width:100px;
+background: #3e9cbf;
+padding: 8px 14px 10px;
+border:1px solid #3e9cbf;
+cursor:pointer;
+font-size:1.5em;
+letter-spacing:.1em;
+text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3);
+color: #fff;
+-webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+-moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+box-shadow: inset 0px 1px 0px #3e9cbf, 0px 5px 0px 0px #205c73, 0px 10px 5px #999;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+}
+
+input#login:hover, input#login:focus {
+color:#dfe7ea;
+-webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+-moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+}
