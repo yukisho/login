@@ -6,10 +6,10 @@ $username = "DB_USERNAME";
 $password = "DB_PASSWORD";
 $database = "DB_NAME";
 
-// Users table name. Must edit. Example: $users = 'admins'; for using as admin panel login.
+// Users table name. Must edit. Example: $users = 'admins'; for using as admin panel log in.
 $users = 'users';
 
-// Login page title.
+// Log in page title.
 $title = 'Please Log In';
 
 // Log in page message.
@@ -18,7 +18,7 @@ $message = 'Log In';
 // Note message below the submit button.
 $note = '<p>Get this script at <a href="http://www.gravvy.me/" target="_new">gravvy.me</a></p>';
 
-// Redirect to after successfully loggin in.
+// Page to redirect to after a successful log in.
 $redirect = 'index.php';
 
 ?>
