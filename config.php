@@ -16,9 +16,11 @@ $title = 'Please Log In';
 $message = 'Log In';
 
 // Note message below the submit button.
-$note = '<p>Get this script at <a href="http://www.gravvy.me/" target="_new">gravvy.me</a></p>';
+$note = '<p>Get this script at <a href="http://c0de.keytrades.net/" target="_new">c0de</a></p>';
 
 // Page to redirect to after a successful log in.
 $redirect = 'index.php';
 
+// Stylesheet
+$stle = 'login.css';
 ?>
