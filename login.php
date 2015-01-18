@@ -61,8 +61,6 @@ if ($hasher->CheckPassword($pass, $hash)) { //$hash is the hash retrieved from t
     } else {
         echo 'Failed: ';
         echo $_POST['username'];
-        echo ' ';
-        echo $res;
     }
 
 $mysqli->close();
